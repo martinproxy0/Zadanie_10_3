@@ -1,0 +1,38 @@
+#carousel img {
+    width: 400px;
+    height: 100%;
+}
+#carousel ul {
+    width: 2000px;
+    margin: 0;
+    padding: 0;
+}
+#carousel li {
+    list-style: none;
+    float: left;
+}
+#carousel {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#btn-left,
+#btn-right {
+    position: absolute;
+}
+#btn-left {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+#btn-right {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
