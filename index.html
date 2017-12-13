@@ -10,10 +10,10 @@
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -21,8 +21,15 @@
         <![endif]-->
 
         <div id="carousel">    
-            <button id="btn-left"><</button>
-            <button id="btn-right">></button>        
+            <a id="btn-left"><i class="fa fa-caret-square-o-left fa-2x" aria-hidden="true"></i></a>
+            <a id="btn-right"><i class="fa fa-caret-square-o-right fa-2x" aria-hidden="true"></i></a>
+            <div id="slider-nav">
+                <div class="slider-nav-point"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                <div class="slider-nav-point"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                <div class="slider-nav-point"><i class="fa fa-circle" aria-hidden="true"></i></div>
+                <div class="slider-nav-point"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+                <div class="slider-nav-point"><i class="fa fa-circle-o" aria-hidden="true"></i></div>
+            </div>        
             <ul>
                 <li><img src="https://images.unsplash.com/photo-1510279770292-4b34de9f5c23?auto=format&fit=crop&w=751&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="foto1"></li>
                 <li><img src="https://images.unsplash.com/photo-1510253782297-404c4da27214?auto=format&fit=crop&w=751&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="foto2"></li>
